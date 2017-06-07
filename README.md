@@ -22,7 +22,9 @@ removeItem(product), // decrement the count of the item containing the product o
 
 removeProduct(product), // removes the item that contains the product
 
-getItem(product), // get an item containing the product or null otherwise getTotal(), // returns the total of all items in the cart. clearCart(), // removes all items
+getItem(product), // get an item containing the product or null otherwise 
+getTotal(), // returns the total of all items in the cart. 
+clearCart(), // removes all items
 
 cart.test.js should require cart.js and try out all its methods by Adding to the cart a product Checking if the product is in the cart Adding the same product Get item of this product and checking that the count is 2 and the price is 2 times the product Remove the product and checking the count of the item is back to 1 and price is back to 1 times the product the price Add another product with a different id getting all items to check the items length is 2 Get total Clear the cart
 
